@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1000",
+        "name" : "Bibin",
+        "age" : 23,
+        "nationality" : "Indian"
+    },
+    {
+        "id" : "1001",
+        "name" : "Arun",
+        "age" : 20,
+        "nationality" : "Indian"
+    },
+    {
+        "id" : "1002",
+        "name" : "Michael",
+        "age" : 23,
+        "nationality" : "Uk"
+    },
+    {
+        "id" : "1003",
+        "name" : "Nic",
+        "age" : 23,
+        "nationality" : "USA"
+    }
+]
