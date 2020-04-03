@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ajosh</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <style>
+    body {
+      margin: 0;
+    }
+    a {
+      text-decoration: none !important;
+    }
+    span {
+      font-size: 18px;
+    }
+    .par-body {
+      background-image: url("./image/ajosh.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+    }
+    .nav-list {
+      display: flex;
+      float: right;
+    }
+    .nav-list a {
+      font-size: 20px;
+      color: #c6dce6;
+      margin: 10px;
+    }
+    .content-par {
+      padding-top: 25%;
+      color: #fff;
+      width: 300px;
+      padding-left: 57%;
+    }
+    .content-par span {
+      word-spacing: 3px;
+      letter-spacing: 1px;
+      line-height: 24px;
+    }
+    .content-par .name {
+      font-size: 24px !important;
+    }
+    .name-par {
+      margin-bottom: 10px;
+    }
+
+    /* media querty */
+    @media screen and (min-width: 641px) and (max-width: 820px) {
+      .content-par {
+        padding: 45% 57%;
+      }
+    }
+    @media screen and (min-width: 558px) and (max-width: 640px) {
+      .content-par {
+        padding: 50% 50%;
+      }
+    }
+    @media screen and (min-width: 478px) and (max-width: 557px) {
+      .content-par {
+        padding: 11% 26%;
+      }
+    }
+    @media screen and (max-width: 477px) {
+      .name-par {
+        margin-bottom: 8px;
+      }
+      .content-par span {
+        word-spacing: unset;
+        letter-spacing: 1px;
+        line-height: 24px;
+      }
+      .content-par .name {
+        font-size: 20px !important;
+      }
+      span {
+        font-size: 17px;
+      }
+    }
+    @media screen and (min-width: 420px) and (max-width: 477px) {
+      .content-par {
+        padding: 15% 20%;
+      }
+    }
+    @media screen and (min-width: 370px) and (max-width: 419px) {
+      .content-par {
+        padding: 16% 22%;
+      }
+    }
+    @media screen and (min-width: 300px) and (max-width: 369px) {
+      .content-par {
+        padding: 22% 12%;
+      }
+    }
+    @media screen and (min-width: 274px) and (max-width: 299px) {
+      .content-par {
+        padding: 22% 8%;
+      }
+    }
+    @media screen and (min-width: 254px) and (max-width: 273px) {
+      .content-par {
+        padding: 22% 1%;
+      }
+    }
+    @media screen and (max-width: 254px){
+      .content-par {
+        padding: 22% 2%;
+      }
+      .name-par {
+        margin-bottom: 8px;
+      }
+      .content-par .name {
+        font-size: 18px !important;
+      }
+      span {
+        font-size: 15px;
+      }
+    }
+  </style>
+  <body>
+    <div class="par-body" id="par_body">
+      <div class="nav-list">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="content-par">
+        <div class="name-par">
+          <span class="name"><span>I'm</span> Ajosh</span>
+        </div>
+        <span>Website & WebApp Developer</span><br />
+        <span>Working as a Software Engineer </span><br />
+        <span>at Xilligence, Technopark</span>
+      </div>
+    </div>
+
+    <script>
+      // var element = document.getElementById("par_body")
+      // element.style.height = screen.height + "px";
+      // element.style.width = screen.width + "px";
+    </script>
+  </body>
+</html>
